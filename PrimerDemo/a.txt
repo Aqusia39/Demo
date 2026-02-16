@@ -1,0 +1,431 @@
+PS C:\Users\User> wsl
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ sudo apt update
+sudo apt install python3 python3-pip -y
+[sudo] password for userkevin:
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:2 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:3 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [74.2 kB]
+Hit:4 http://archive.ubuntu.com/ubuntu noble InRelease
+Get:5 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:6 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [386 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:13 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7284 B]
+Get:14 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [10.5 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+Get:16 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Fetched 1055 kB in 6s (188 kB/s)
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+All packages are up to date.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+python3 is already the newest version (3.12.3-0ubuntu2.1).
+python3-pip is already the newest version (24.0+dfsg-1ubuntu1.3).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ python3 --version
+Python 3.12.3
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ which python3
+/usr/bin/python3
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ whoami
+userkevin
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ ll -al
+total 27792
+drwxrwxrwx 1 userkevin userkevin      512 Feb 15 02:35  ./
+dr-xr-xr-x 1 userkevin userkevin      512 Aug 16  2025  ../
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .anaconda/
+drwxrwxrwx 1 userkevin userkevin      512 Jan  7 16:20  .android/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 13 20:21  .conda/
+-rwxrwxrwx 1 userkevin userkevin       25 Jul 25  2025  .condarc*
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .continuum/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .dotnet/
+drwxrwxrwx 1 userkevin userkevin      512 Aug  2  2025  .fontconfig/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:28  .ipynb_checkpoints/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:22  .ipython/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:27  .jupyter/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:22  .matplotlib/
+drwxrwxrwx 1 userkevin userkevin      512 Mar  5  2025  .ms-ad/
+-rwxrwxrwx 1 userkevin userkevin        2 Feb 15 02:35  .python_history*
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:27  .spyder-py3/
+drwxrwxrwx 1 userkevin userkevin      512 Oct  2 20:14  .ssh/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .vscode/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  AppData/
+lrwxrwxrwx 1 userkevin userkevin       33 Aug 16  2025 'Application Data' -> /mnt/c/Users/User/AppData/Roaming/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Contacts/
+lrwxrwxrwx 1 userkevin userkevin       61 Aug 16  2025  Cookies -> /mnt/c/Users/User/AppData/Local/Microsoft/Windows/INetCookies/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 14 01:15  Desktop/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 27 02:31  Documents/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 15 03:33  Downloads/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Favorites/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 30  2025  HEADER/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 30  2025  IMPLEMENT/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:24  Jedi/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Links/
+lrwxrwxrwx 1 userkevin userkevin       31 Aug 16  2025 'Local Settings' -> /mnt/c/Users/User/AppData/Local/
+drwxrwxrwx 1 userkevin userkevin      512 Jan 11 17:27  Music/
+lrwxrwxrwx 1 userkevin userkevin       27 Aug 16  2025 'My Documents' -> /mnt/c/Users/User/Documents/
+-rwxrwxrwx 1 userkevin userkevin 19922944 Feb 14 20:07  NTUSER.DAT*
+-rwxrwxrwx 1 userkevin userkevin    65536 Aug 16  2025  NTUSER.DAT{835ba59e-7a07-11f0-bf81-a49b60d48401}.TM.blf*
+-rwxrwxrwx 1 userkevin userkevin   524288 Aug 16  2025  NTUSER.DAT{835ba59e-7a07-11f0-bf81-a49b60d48401}.TMContainer00000000000000000001.regtrans-ms*
+-rwxrwxrwx 1 userkevin userkevin   524288 Aug 16  2025  NTUSER.DAT{835ba59e-7a07-11f0-bf81-a49b60d48401}.TMContainer00000000000000000002.regtrans-ms*
+lrwxrwxrwx 1 userkevin userkevin       69 Aug 16  2025  NetHood -> '/mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 15 02:09  OneDrive/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Pictures/
+lrwxrwxrwx 1 userkevin userkevin       69 Aug 16  2025  PrintHood -> '/mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 userkevin userkevin       58 Aug 16  2025  Recent -> /mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Recent/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025 'Saved Games'/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Searches/
+lrwxrwxrwx 1 userkevin userkevin       58 Aug 16  2025  SendTo -> /mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 userkevin userkevin       61 Aug 16  2025  Templates -> /mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Templates/
+-rwxrwxrwx 1 userkevin userkevin   207417 Sep 25 18:49  Untitled.ipynb*
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Videos/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  anaconda3/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  miniconda3/
+-rwxrwxrwx 1 userkevin userkevin  4722688 Aug 16  2025  ntuser.dat.LOG1*
+-rwxrwxrwx 1 userkevin userkevin  2490368 Aug 16  2025  ntuser.dat.LOG2*
+-rwxrwxrwx 1 userkevin userkevin       20 Aug 16  2025  ntuser.ini*
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  source/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 14 02:52  vscode-remote-wsl/
+lrwxrwxrwx 1 userkevin userkevin       62 Aug 16  2025  「開始」功能表 -> '/mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Start Menu'/
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ ll
+total 27792
+drwxrwxrwx 1 userkevin userkevin      512 Feb 15 02:35  ./
+dr-xr-xr-x 1 userkevin userkevin      512 Aug 16  2025  ../
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .anaconda/
+drwxrwxrwx 1 userkevin userkevin      512 Jan  7 16:20  .android/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 13 20:21  .conda/
+-rwxrwxrwx 1 userkevin userkevin       25 Jul 25  2025  .condarc*
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .continuum/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .dotnet/
+drwxrwxrwx 1 userkevin userkevin      512 Aug  2  2025  .fontconfig/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:28  .ipynb_checkpoints/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:22  .ipython/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:27  .jupyter/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:22  .matplotlib/
+drwxrwxrwx 1 userkevin userkevin      512 Mar  5  2025  .ms-ad/
+-rwxrwxrwx 1 userkevin userkevin        2 Feb 15 02:35  .python_history*
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:27  .spyder-py3/
+drwxrwxrwx 1 userkevin userkevin      512 Oct  2 20:14  .ssh/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  .vscode/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  AppData/
+lrwxrwxrwx 1 userkevin userkevin       33 Aug 16  2025 'Application Data' -> /mnt/c/Users/User/AppData/Roaming/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Contacts/
+lrwxrwxrwx 1 userkevin userkevin       61 Aug 16  2025  Cookies -> /mnt/c/Users/User/AppData/Local/Microsoft/Windows/INetCookies/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 14 01:15  Desktop/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 27 02:31  Documents/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 15 03:33  Downloads/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Favorites/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 30  2025  HEADER/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 30  2025  IMPLEMENT/
+drwxrwxrwx 1 userkevin userkevin      512 Sep 25 15:24  Jedi/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Links/
+lrwxrwxrwx 1 userkevin userkevin       31 Aug 16  2025 'Local Settings' -> /mnt/c/Users/User/AppData/Local/
+drwxrwxrwx 1 userkevin userkevin      512 Jan 11 17:27  Music/
+lrwxrwxrwx 1 userkevin userkevin       27 Aug 16  2025 'My Documents' -> /mnt/c/Users/User/Documents/
+-rwxrwxrwx 1 userkevin userkevin 19922944 Feb 14 20:07  NTUSER.DAT*
+-rwxrwxrwx 1 userkevin userkevin    65536 Aug 16  2025  NTUSER.DAT{835ba59e-7a07-11f0-bf81-a49b60d48401}.TM.blf*
+-rwxrwxrwx 1 userkevin userkevin   524288 Aug 16  2025  NTUSER.DAT{835ba59e-7a07-11f0-bf81-a49b60d48401}.TMContainer00000000000000000001.regtrans-ms*
+-rwxrwxrwx 1 userkevin userkevin   524288 Aug 16  2025  NTUSER.DAT{835ba59e-7a07-11f0-bf81-a49b60d48401}.TMContainer00000000000000000002.regtrans-ms*
+lrwxrwxrwx 1 userkevin userkevin       69 Aug 16  2025  NetHood -> '/mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 15 02:09  OneDrive/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Pictures/
+lrwxrwxrwx 1 userkevin userkevin       69 Aug 16  2025  PrintHood -> '/mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 userkevin userkevin       58 Aug 16  2025  Recent -> /mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Recent/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025 'Saved Games'/
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Searches/
+lrwxrwxrwx 1 userkevin userkevin       58 Aug 16  2025  SendTo -> /mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 userkevin userkevin       61 Aug 16  2025  Templates -> /mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Templates/
+-rwxrwxrwx 1 userkevin userkevin   207417 Sep 25 18:49  Untitled.ipynb*
+drwxrwxrwx 1 userkevin userkevin      512 Aug 16  2025  Videos/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  anaconda3/
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  miniconda3/
+-rwxrwxrwx 1 userkevin userkevin  4722688 Aug 16  2025  ntuser.dat.LOG1*
+-rwxrwxrwx 1 userkevin userkevin  2490368 Aug 16  2025  ntuser.dat.LOG2*
+-rwxrwxrwx 1 userkevin userkevin       20 Aug 16  2025  ntuser.ini*
+drwxrwxrwx 1 userkevin userkevin      512 Jul 25  2025  source/
+drwxrwxrwx 1 userkevin userkevin      512 Feb 14 02:52  vscode-remote-wsl/
+lrwxrwxrwx 1 userkevin userkevin       62 Aug 16  2025  「開始」功能表 -> '/mnt/c/Users/User/AppData/Roaming/Microsoft/Windows/Start Menu'/
+userkevin@LAPTOP-I2HTUVBC:/mnt/c/Users/User$ cd ~
+userkevin@LAPTOP-I2HTUVBC:~$ ll
+total 52
+drwxr-x--- 9 userkevin userkevin 4096 Feb 14 19:49 ./
+drwxr-xr-x 3 root      root      4096 Feb 14 02:45 ../
+-rw------- 1 userkevin userkevin  805 Feb 14 20:07 .bash_history
+-rw-r--r-- 1 userkevin userkevin  220 Feb 14 02:45 .bash_logout
+-rw-r--r-- 1 userkevin userkevin 3771 Feb 14 02:45 .bashrc
+drwx------ 5 userkevin userkevin 4096 Feb 14 03:05 .cache/
+drwxr-xr-x 3 userkevin userkevin 4096 Feb 14 02:52 .dotnet/
+drwxr-xr-x 3 userkevin userkevin 4096 Feb 14 03:06 .local/
+-rw-rw-r-- 1 userkevin userkevin    0 Feb 15 02:29 .motd_shown
+-rw-r--r-- 1 userkevin userkevin  807 Feb 14 02:45 .profile
+-rw-r--r-- 1 userkevin userkevin    0 Feb 14 02:48 .sudo_as_admin_successful
+drwxr-xr-x 5 userkevin userkevin 4096 Feb 14 02:52 .vscode-server/
+drwxr-xr-x 3 userkevin userkevin 4096 Feb 15 02:38 PrimerDemo/
+drwxr-xr-x 2 root      root      4096 Feb 14 19:48 PyDemo/
+drwxr-xr-x 3 userkevin userkevin 4096 Feb 14 02:58 demo/
+userkevin@LAPTOP-I2HTUVBC:~$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/userkevin/.git/
+userkevin@LAPTOP-I2HTUVBC:~$ cd PrimerDemo
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ echo "hello" > a.txt
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git add .
+git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <userkevin@LAPTOP-I2HTUVBC.localdomain>) not allowed
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git config --global user.name Aqusia
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git config --global user.email kevin200481211@gmail.com
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git  status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/launch.json
+        new file:   .vscode/tasks.json
+        new file:   a.out
+        new file:   a.txt
+        new file:   gg.py
+        new file:   main
+        new file:   main.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.bash_history
+        ../.bash_logout
+        ../.bashrc
+        ../.cache/
+        ../.dotnet/
+        ../.gitconfig
+        ../.local/
+        ../.motd_shown
+        ../.profile
+        ../.sudo_as_admin_successful
+        ../.vscode-server/
+        ../demo/
+
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git remote add origin  https://github.com/Aqusia/PrimerTest
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git branch -M main
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Aqusia/PrimerTest'
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/launch.json
+        new file:   .vscode/tasks.json
+        new file:   a.out
+        new file:   a.txt
+        new file:   gg.py
+        new file:   main
+        new file:   main.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.bash_history
+        ../.bash_logout
+        ../.bashrc
+        ../.cache/
+        ../.dotnet/
+        ../.gitconfig
+        ../.local/
+        ../.motd_shown
+        ../.profile
+        ../.sudo_as_admin_successful
+        ../.vscode-server/
+        ../demo/
+
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git add .
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git commit -m "first commit"
+[main (root-commit) f99a6a5] first commit
+ 7 files changed, 86 insertions(+)
+ create mode 100644 PrimerDemo/.vscode/launch.json
+ create mode 100644 PrimerDemo/.vscode/tasks.json
+ create mode 100755 PrimerDemo/a.out
+ create mode 100644 PrimerDemo/a.txt
+ create mode 100644 PrimerDemo/gg.py
+ create mode 100755 PrimerDemo/main
+ create mode 100644 PrimerDemo/main.cpp
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+Username for 'https://github.com': Aqusia
+Password for 'https://Aqusia@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Aqusia/PrimerTest/'
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+Username for 'https://github.com': kevin200481211@gmail.com
+Password for 'https://kevin200481211%40gmail.com@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Aqusia/PrimerTest/'
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+kevin200481211@gmail.comUsername for 'https://github.com':
+Password for 'https://kevin200481211%40gmail.com@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Aqusia/PrimerTest/'
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ ssh-keygen -t ed25519 -C "kevin200481211@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/userkevin/.ssh/id_ed25519):
+Created directory '/home/userkevin/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/userkevin/.ssh/id_ed25519
+Your public key has been saved in /home/userkevin/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:qVWFwoT13Yw3KeCkuQpYzd/i2TNLIqld6ILdow2D4i4 kevin200481211@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|       =o o..    |
+|     o. o*.+ + . |
+|    . o o.+ + *  |
+|   o   . =   o . |
+|  . .   S .      |
+|   . . B +       |
+|. .oo.* = =      |
+|E.. oBoo o +     |
+|oo  oo+.  .      |
++----[SHA256]-----+
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOchHX869EW7ClfdwiwaLIsyocx2aATg9S0K4u+84xCF kevin200481211@gmail.com
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ ssh -T git@github.com
+The authenticity of host 'github.com (20.27.177.113)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi Aqusia! You've successfully authenticated, but GitHub does not provide shell access.
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ ssh -T git@github.com
+Hi Aqusia! You've successfully authenticated, but GitHub does not provide shell access.
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+Username for 'https://github.com': ^Z
+[1]+  Stopped                 git push -u origin main
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git remote set-url origin git@github.com:Aqusia/PrimerTest.git
+git push -u origin main
+To github.com:Aqusia/PrimerTest.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Aqusia/PrimerTest.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git remote set-url origin git@https://github.com/Aqusia/PrimerTest
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+fatal: protocol 'git@https' is not supported
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main@github.com/Aqusia/PrimerTest
+error: src refspec main@github.com/Aqusia/PrimerTest does not match any
+error: failed to push some refs to 'git@https://github.com/Aqusia/PrimerTest'
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git remote -v
+origin  git@https://github.com/Aqusia/PrimerTest (fetch)
+origin  git@https://github.com/Aqusia/PrimerTest (push)
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git remote set-url origin git@github.com:Aqusia/PrimerTest.git
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git remote -v
+origin  git@github.com:Aqusia/PrimerTest.git (fetch)
+origin  git@github.com:Aqusia/PrimerTest.git (push)
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main
+To github.com:Aqusia/PrimerTest.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Aqusia/PrimerTest.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git push -u origin main --force
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 11.25 KiB | 5.62 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:Aqusia/PrimerTest.git
+ + 39e74b6...f99a6a5 main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git pull --rebase origin main
+git push -u origin main
+From github.com:Aqusia/PrimerTest
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git log --oneline --graph --decorate --all
+* f99a6a5 (HEAD -> main, origin/main) first commit
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git log --oneline --graph --decorate --al
+fatal: unrecognized argument: --al
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$ git diff
+userkevin@LAPTOP-I2HTUVBC:~/PrimerDemo$
